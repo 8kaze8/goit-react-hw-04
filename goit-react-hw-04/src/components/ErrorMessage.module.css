@@ -1,0 +1,15 @@
+.error {
+  margin: 30px auto;
+  padding: 20px;
+  max-width: 600px;
+  text-align: center;
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+}
+
+.error p {
+  margin: 0;
+  font-size: 18px;
+}

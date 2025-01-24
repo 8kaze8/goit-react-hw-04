@@ -1,14 +1,14 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { toast } from "react-hot-toast";
-import SearchBar from "./components/SearchBar";
-import ImageGallery from "./components/ImageGallery";
-import LoadMoreBtn from "./components/LoadMoreBtn";
-import Loader from "./components/Loader";
-import ErrorMessage from "./components/ErrorMessage";
-import ImageModal from "./components/ImageModal";
+import SearchBar from "./components/SearchBar/SearchBar";
+import ImageGallery from "./components/ImageGallery/ImageGallery";
+import LoadMoreBtn from "./components/LoadMoreBtn/LoadMoreBtn";
+import Loader from "./components/Loader/Loader";
+import ErrorMessage from "./components/ErrorMessage/ErrorMessage";
+import ImageModal from "./components/ImageModal/ImageModal";
 
-const ACCESS_KEY = "YOUR_UNSPLASH_ACCESS_KEY"; // Unsplash API anahtarını buraya ekleyin
+const ACCESS_KEY = "UjakUxlD-ULBa859LylxW4gVwIeRlLS2aB_-sNggtu4";
 axios.defaults.baseURL = "https://api.unsplash.com";
 
 function App() {
